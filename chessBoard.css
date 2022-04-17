@@ -1,0 +1,19 @@
+#container {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    margin: auto;
+}
+#box1 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+#box2 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
